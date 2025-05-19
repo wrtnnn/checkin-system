@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-header {
+    @apply text-[#2D62FF] font-bold text-3xl 2xl:text-4xl
+}
+
+.text-title {
+    @apply font-semibold text-xl 2xl:text-[28px]
+}
+
+.text-subtitle {
+    @apply font-medium text-base 2xl:text-xl
+}
+
+.card {
+    @apply w-full h-[240px] p-[10px] mb-[20px] 2xl:w-[550px] 2xl:h-[240px] 2xl:p-[20px];
+}
